@@ -1,6 +1,6 @@
 import {PDFDocument, PDFFont, PDFPage, rgb} from 'pdf-lib';
 import fontkit from '@pdf-lib/fontkit'
-import {AccountQR, ContactQR, MnemonicQR, QRCode} from "symbol-qr-library";
+import {AccountQR, ContactQR, MnemonicQR, QRCode } from "symbol-qr-library";
 import encodedFont from "./resources/encodedFont";
 import encodedBasePdf from "./resources/encodedBasePdf";
 import encodedBasePrivateKeyPdf from "./resources/encodedBasePrivateKeyPdf";
@@ -14,24 +14,24 @@ const DEFAULT_GENERATION_HASH_SEED = '57F7DA205008026C776CB6AED843393F04CD458E0A
  * Printing constants
  */
 const MNEMONIC_POSITION = {
-    x: 184,
-    y: 36
+    x: 244,
+    y: 46
 };
 const ADDRESS_POSITION = {
-    x: 184,
-    y: 90
+    x: 244,
+    y: 115
 };
 const MNEMONIC_QR_POSITION = {
-    x: 264,
-    y: 159,
-    width: 99,
-    height: 99,
+    x: 344,
+    y: 205,
+    width: 150,
+    height: 150,
 };
 const ADDRESS_QR_POSITION = {
-    x: 418,
-    y: 159,
-    width: 99,
-    height: 99,
+    x: 550,
+    y: 205,
+    width: 150,
+    height: 150,
 };
 
 

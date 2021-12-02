@@ -1,24 +1,24 @@
 {
-  "name": "symbol-paper-wallets",
+  "name": "dhealth-paper-wallet",
   "version": "1.0.0",
-  "description": "Symbol paper wallets library",
+  "description": "dHealth paper wallet library",
   "main": "index.js",
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc"
   },
   "author": {
-    "name": "Peersyst Technology",
-    "email": "dev@peersyst.com"
+    "name": "Adrià Carrera",
+    "email": "acarrera@peersyst.com"
   },
   "bugs": {
-    "url": "https://github.com/peersyst/symbol-paper-wallet/issues"
+    "url": "https://github.com/peersyst/dhealth-paper-wallet/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peersyst/symbol-paper-wallet.git"
+    "url": "git+https://github.com/peersyst/dhealth-paper-wallet.git"
   },
-  "homepage": "https://github.com/peersyst/symbol-paper-wallet#readme",
+  "homepage": "https://github.com/peersyst/dhealth-paper-wallet#readme",
   "license": "MIT",
   "dependencies": {
     "@pdf-lib/fontkit": "1.0.0",
