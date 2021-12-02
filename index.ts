@@ -58,9 +58,9 @@ export type IAccountInfo = {
 };
 
 /**
- * Symbol Paper wallet class
+ * dHealth Paper wallet class
  */
-class SymbolPaperWallet {
+class dHealthPaperWallet {
     public hdAccount: IHDAccountInfo;
     public accountInfos: IAccountInfo[];
     public network: INetworkType;
@@ -219,4 +219,4 @@ class SymbolPaperWallet {
 
 }
 
-export { SymbolPaperWallet };
+export { dHealthPaperWallet };

@@ -1,6 +1,6 @@
-# Symbol Paper Wallets
+# dHealth Paper Wallets
 
-Symbol paper wallet generator
+dHealth paper wallet generator
 
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -9,18 +9,18 @@ Symbol paper wallet generator
 
 To install the npm module on your typescript or node project run:
 
-`npm install symbol-paper-wallets --save`
+`npm install dhealth-paper-wallet --save`
 
 And install plugin dependencies:
 
-`npm install symbol-sdk symbol-hd-wallets --save`
+`npm install dhealth-sdk dhealth-hd-wallets --save`
 
 ## Usage <a name="usage"></a>
 
 Prepare some constants for use the module:
 
 ```javascript
-import { SymbolPaperWallet } from 'symbol-paper-wallet';
+import { dHealthPaperWallet } from 'dhealth-paper-wallet';
 
 const hdRootAccount = {
     mnemonic: "guess welcome coconut forum cricket unfold welcome still ticket cluster buddy fan decrease cotton model drive student assault cloth protect random equal this congress",
@@ -35,7 +35,7 @@ const privateKeyAccount = {
     privateKey: "0000000000000000000000000000000000000000000000000000000000000000"
 };
 
-const paperWallet = new SymbolPaperWallet(hdRootAccount, [privateKeyAccount], NetworkType.TEST_NET, '57F7DA205008026C776CB6AED843393F04CD458E0AA2D9F1D5F31A402072B2D6')
+const paperWallet = new dHealthPaperWallet(hdRootAccount, [privateKeyAccount], NetworkType.TEST_NET, '57F7DA205008026C776CB6AED843393F04CD458E0AA2D9F1D5F31A402072B2D6')
 
 const uint8Array = await paperWallet.toPdf();
 
