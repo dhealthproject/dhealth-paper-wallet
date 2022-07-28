@@ -1,5 +1,5 @@
 {
-  "name": "dhealth-paper-wallet",
+  "name": "@dhealth/paper-wallet",
   "version": "1.0.0",
   "description": "dHealth paper wallet library",
   "main": "index.js",
@@ -12,13 +12,13 @@
     "email": "acarrera@peersyst.com"
   },
   "bugs": {
-    "url": "https://github.com/peersyst/dhealth-paper-wallet/issues"
+    "url": "https://github.com/dhealthproject/dhealth-paper-wallet/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peersyst/dhealth-paper-wallet.git"
+    "url": "git+https://github.com/dhealthproject/dhealth-paper-wallet.git"
   },
-  "homepage": "https://github.com/peersyst/dhealth-paper-wallet#readme",
+  "homepage": "https://github.com/dhealthproject/dhealth-paper-wallet#readme",
   "license": "MIT",
   "dependencies": {
     "@pdf-lib/fontkit": "1.0.0",

@@ -1,26 +1,33 @@
-# dHealth Paper Wallets
+# @dhealth/paper-wallet
 
-dHealth paper wallet generator
+[![License](https://img.shields.io/badge/License-LGPL%203.0%20only-blue.svg)][license]
+[![Discord](https://img.shields.io/badge/chat-on%20discord-green.svg)][discord]
 
-1. [Installation](#installation)
-2. [Usage](#usage)
+dHealth paper wallet generator for [dHealth Network][parent-url].
 
-## Installation <a name="installation"></a>
+- [Install notes](#install-notes)
+- [Getting help](#getting-help)
+- [Contributing](#contributing)
+- [License](#license)
+
+**NOTE**: The author(s) and contributor(s) of this package cannot be held responsible for any loss of money or for any malintentioned usage forms of this package. Please use this package with caution.
+
+## Install notes
 
 To install the npm module on your typescript or node project run:
 
-`npm install dhealth-paper-wallet --save`
+`npm install @dhealth/paper-wallet --save`
 
 And install plugin dependencies:
 
-`npm install dhealth-sdk dhealth-hd-wallets --save`
+`npm install dhealth-sdk @dhealth/hd-wallets --save`
 
 ## Usage <a name="usage"></a>
 
 Prepare some constants for use the module:
 
 ```javascript
-import { dHealthPaperWallet } from 'dhealth-paper-wallet';
+import { dHealthPaperWallet } from '@dhealth/paper-wallet';
 
 const hdRootAccount = {
     mnemonic: "guess welcome coconut forum cricket unfold welcome still ticket cluster buddy fan decrease cotton model drive student assault cloth protect random equal this congress",
@@ -40,3 +47,28 @@ const paperWallet = new dHealthPaperWallet(hdRootAccount, [privateKeyAccount], N
 const uint8Array = await paperWallet.toPdf();
 
 ```
+
+## Getting help
+
+Use the following available resources to get help:
+
+- [dHealth Documentation][docs]
+- Join the community on [Discord][discord]
+- If you found a bug, [open a new issue][issues]
+
+## Contributing
+
+Contributions are welcome and appreciated.
+Check [CONTRIBUTING](CONTRIBUTING.md) for information on how to contribute.
+
+## License
+
+Copyright 2019 Peersyst Technology SL
+
+Licensed under the [MIT](LICENSE)
+
+[license]: https://opensource.org/licenses/LGPL-3.0
+[parent-url]: https://dhealth.com
+[docs]: https://docs.dhealth.com
+[issues]: https://github.com/dhealthproject/dhealth-paper-wallet/issues
+[discord]: https://discord.gg/P57WHbmZjk
