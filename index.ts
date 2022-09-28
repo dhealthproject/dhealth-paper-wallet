@@ -1,6 +1,6 @@
 import {PDFDocument, PDFFont, PDFPage, rgb} from 'pdf-lib';
 import fontkit from '@pdf-lib/fontkit'
-import {AccountQR, ContactQR, MnemonicQR, QRCode } from "symbol-qr-library";
+import {AccountQR, ContactQR, MnemonicQR, QRCode } from "@dhealth/qr-library";
 import encodedFont from "./resources/encodedFont";
 import encodedBasePdf from "./resources/encodedBasePdf";
 import encodedBasePrivateKeyPdf from "./resources/encodedBasePrivateKeyPdf";
